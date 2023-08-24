@@ -2,7 +2,10 @@ import React from "react";
 import me from "./../assets/me.png";
 const About = () => {
   return (
-    <div className="text-white bg-black lg:mt-[10%] mt-[15%]">
+    <div
+      className="text-white bg-black lg:mt-[10%] mt-[15%] mb-[10%]"
+      id="about"
+    >
       <div className=" flex justify-center bg-black">
         <img src={me} alt="me" className="w-[90%] md:w-[80%] lg:opacity-50" />
       </div>

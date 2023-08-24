@@ -4,7 +4,7 @@ import eu from "./../assets/eu.jpg";
 function Education() {
   return (
     <>
-      <div className="text-white grid place-items-center">
+      <div className="text-white grid place-items-center" id="education">
         <div className="grid place-items-center mt-[15%] lg:opacity-80 lg:mt-[10%]">
           <p className="font-bold text-center text-5xl lg:text-8xl w-[90%]">
             Education

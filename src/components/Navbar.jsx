@@ -1,22 +1,15 @@
 import React from "react";
 import { useState } from "react";
-import { BrowserRouter, Link } from "react-router-dom";
-import Home from "../pages/Home";
-import About from "../pages/About";
-import Education from "../pages/Education";
-import Skills from "../pages/Skills";
-import Projects from "../pages/Projects";
-import Contact from "../pages/Contact";
 
 export default function Navbar() {
-  // let Links = [
-  //   { name: "HOME", link: "/" },
-  //   { name: "ABOUT", link: "/about" },
-  //   { name: "EDUCATION", link: "/eduaction" },
-  //   { name: "SKILLS", link: "/skills" },
-  //   { name: "PROJECTS", link: "/projects" },
-  //   { name: "CONTACT", link: "/contact" },
-  // ];
+  let Links = [
+    { name: "HOME", link: "#" },
+    { name: "ABOUT", link: "#about" },
+    { name: "EDUCATION", link: "#education" },
+    { name: "SKILLS", link: "#skills" },
+    { name: "PROJECTS", link: "#projects" },
+    { name: "CONTACT", link: "#contact" },
+  ];
   let [open, setOpen] = useState(false);
   return (
     <nav>
@@ -34,66 +27,16 @@ export default function Navbar() {
                 open ? "top-20 opacity-100" : "top-[-490px]"
               } md:opacity-100 opacity-0`}
             >
-              {/* {Links.map((link) => (
-              <li key={link.name} className="md:ml-8 text-xl md:my-0 my-6">
-                <a
-                  href={link.link}
-                  className="text-gray-100 hover:text-gray-400 font-medium duration-500"
-                >
-                  {link.name}
-                </a>
-              </li>
-            ))} */}
-              <BrowserRouter>
-                <li key={Home} className="md:ml-8 text-xl md:my-0 my-6">
-                  <Link
-                    to="/"
+              {Links.map((link) => (
+                <li key={link.name} className="md:ml-8 text-xl md:my-0 my-6">
+                  <a
+                    href={link.link}
                     className="text-gray-100 hover:text-gray-400 font-medium duration-500"
                   >
-                    Home
-                  </Link>
+                    {link.name}
+                  </a>
                 </li>
-                <li key={About} className="md:ml-8 text-xl md:my-0 my-6">
-                  <Link
-                    to="/about"
-                    className="text-gray-100 hover:text-gray-400 font-medium duration-500"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li key={Education} className="md:ml-8 text-xl md:my-0 my-6">
-                  <Link
-                    to="/education"
-                    className="text-gray-100 hover:text-gray-400 font-medium duration-500 active"
-                  >
-                    Education
-                  </Link>
-                </li>
-                <li key={Skills} className="md:ml-8 text-xl md:my-0 my-6">
-                  <Link
-                    to="/skills"
-                    className="text-gray-100 hover:text-gray-400 font-medium duration-500"
-                  >
-                    Skills
-                  </Link>
-                </li>
-                <li key={Projects} className="md:ml-8 text-xl md:my-0 my-6">
-                  <Link
-                    to="/projects"
-                    className="text-gray-100 hover:text-gray-400 font-medium duration-500"
-                  >
-                    Projects
-                  </Link>
-                </li>
-                <li key={Contact} className="md:ml-8 text-xl md:my-0 my-6">
-                  <Link
-                    to="/contact"
-                    className="text-gray-100 hover:text-gray-400 font-medium duration-500"
-                  >
-                    Contact
-                  </Link>
-                </li>
-              </BrowserRouter>
+              ))}
             </ul>
           </div>
         </div>
