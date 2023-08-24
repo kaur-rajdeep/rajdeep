@@ -37,11 +37,4 @@ export default [
       "Website for Akal Institute for Rural Women Empowerment using tailwind css first time.",
     live: "https://airwe.netlify.app/",
   },
-  {
-    id: "5",
-    name: "Product 3D",
-    image: product,
-    description: "Open Source Project, I've contibuted in.",
-    live: "https://product-3-d.vercel.app/",
-  },
 ];
