@@ -1,7 +1,4 @@
 import React from "react";
-import linkedin from "./../assets/linkedin.png";
-import twitter from "./../assets/twitter.png";
-import github from "./../assets/github.png";
 
 function Contact() {
   return (
@@ -12,7 +9,7 @@ function Contact() {
             Contact
           </p>
           <hr className="h-px w-[95vw] my-8 bg-gray-200 dark:bg-gray-400" />
-          <div className=" grid grid-cols-3 place-items-center gap-8 font-medium text-lg text-pink-500">
+          <div className=" grid grid-cols-4 place-items-center gap-8 font-medium text-lg text-pink-500">
             <a
               href="http://www.linkedin.com/in/rajdeep-kaur-831047218"
               target="_blank"
@@ -33,6 +30,13 @@ function Contact() {
               rel="noopener noreferrer"
             >
               Twitter
+            </a>
+            <a
+              href="https://instagram.com/rj_doodlie?utm_source=qr&igshid=OGU0MmVlOWVjOQ=="
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
             </a>
           </div>
         </div>

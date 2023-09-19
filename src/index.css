@@ -20,7 +20,7 @@ body {
   /* background-color: #ec4899; */
   border-radius: 5px;
   border:1px solid #ec4899;
-  background-color: #000000;
+  background-color: #ec4899;
 }
 
 ::-webkit-scrollbar-thumb:hover{

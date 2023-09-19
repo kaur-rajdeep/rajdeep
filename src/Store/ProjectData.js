@@ -2,7 +2,7 @@ import ecom from "./../assets/Project/ecom.png";
 import Weather from "./../assets/Project/Weather App.png";
 import Game from "./../assets/Project/Game.png";
 import Airwe from "./../assets/Project/Airwe.png";
-import product from "./../assets/Project/product.png";
+
 
 export default [
   {
