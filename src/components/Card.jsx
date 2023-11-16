@@ -4,7 +4,11 @@ export default function Card(props) {
   return (
     <div className="card">
       <a href={props.live} target="_blank" rel="noopener noreferrer">
-        <img src={props.image} alt="projectImage" />
+        <img
+          src={props.image}
+          alt="projectImage"
+          className="w-[300px] h-[200px]"
+        />
       </a>
       <div className="mt-6">
         <p className="font-bold text-lg text-pink-400">{props.name}</p>
