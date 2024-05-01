@@ -7,28 +7,30 @@ import Education from "./pages/Education";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Art from "./pages/Art";
 
 function App() {
   return (
     <div className="p-4 bg-black">
       <Navbar />
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/education" element={<Education />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/connect" element={<Contact />} /> */}
+          <Route path="/art" element={<Art />} />
         </Routes>
-      </BrowserRouter> */}
-      <Home />
+      </BrowserRouter>
+      {/* <Home />
       <About />
       <Education />
       <Skills />
       <Projects />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }

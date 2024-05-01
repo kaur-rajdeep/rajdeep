@@ -4,7 +4,7 @@ import Game from "./../assets/Project/Game.png";
 import Airwe from "./../assets/Project/Airwe.png";
 
 
-export default [
+var projects = [
   {
     id: "1",
     name: "E-commerce App",
@@ -38,3 +38,5 @@ export default [
     live: "https://airwe.netlify.app/",
   },
 ];
+
+export default projects;

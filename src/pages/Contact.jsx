@@ -5,8 +5,8 @@ function Contact() {
     <>
       <div className="text-white grid place-items-center" id="contact">
         <div className="grid place-items-center mt-[15%] lg:opacity-80 mb-[5%]">
-          <p className="font-bold text-center text-5xl lg:text-8xl w-[90%]">
-            Contact
+          <p className="font-bold text-center text-5xl lg:text-8xl bg-gradient-to-r from-pink-400 via-pink-200 to-pink-500  inline-block text-transparent bg-clip-text ">
+            Connect
           </p>
           <hr className="h-px w-[95vw] my-8 bg-gray-200 dark:bg-gray-400" />
           <div className=" grid grid-cols-4 place-items-center gap-8 font-medium text-lg text-pink-500">

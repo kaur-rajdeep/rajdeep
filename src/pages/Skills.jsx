@@ -1,47 +1,24 @@
 import React from "react";
-import html from "./../assets/icons/html.png";
-import bs from "./../assets/icons/bs.png";
-import css from "./../assets/icons/css.png";
-import js from "./../assets/icons/js.png";
-import py from "./../assets/icons/py.png";
-import react from "./../assets/icons/react.png";
-import twind from "./../assets/icons/twind.png";
+import SkillCard from "../components/SkillCard";
+import SkillsData from "../Store/SkillsData";
 
 function Skills() {
+  const SkillCards = SkillsData.map((item) => {
+    return <SkillCard key={item.id} {...item} />;
+  });
   return (
     <>
       <div className="text-white grid place-items-center" id="skills">
-        <div className="grid place-items-center mt-[15%] lg:opacity-80 mb-[5%]">
-          <p className="font-bold text-center text-5xl lg:text-8xl w-[90%]">
+        <div className="grid place-items-center mt-[20%] lg:mt-[6%] lg:opacity-80 mb-[5%]">
+          <p className="font-bold text-center text-5xl lg:text-8xl bg-gradient-to-r from-pink-400 via-pink-200 to-pink-500  inline-block text-transparent bg-clip-text ">
             Skills
           </p>
         </div>
-        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-8">
-          <div className="skill">
-            <img src={html} alt="html" />
-          </div>
-          <div className="skill">
-            <img src={css} alt="css" />
-          </div>
-          <div className="skill">
-            <img src={js} alt="js" />
-          </div>
-          <div className="skill">
-            <img src={react} alt="react" />
-          </div>
-          <div className="skill">
-            <img src={bs} alt="bs" />
-          </div>
-          <div className="skill">
-            <img src={py} alt="py" />
-          </div>
-          <div className="skill">
-            <img src={twind} alt="twind" />
-          </div>
-        </div>
+        <section className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          {SkillCards}
+        </section>
       </div>
     </>
   );
 }
-
 export default Skills;

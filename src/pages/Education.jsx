@@ -5,8 +5,8 @@ function Education() {
   return (
     <>
       <div className="text-white grid place-items-center" id="education">
-        <div className="grid place-items-center mt-[15%] lg:opacity-80 lg:mt-[10%]">
-          <p className="font-bold text-center text-5xl lg:text-8xl w-[90%]">
+        <div className="grid place-items-center mt-[15%] lg:opacity-80 lg:mt-[6%]">
+          <p className="font-bold text-center text-5xl lg:text-8xl bg-gradient-to-r from-pink-400 via-pink-200 to-pink-500  inline-block text-transparent bg-clip-text ">
             Education
           </p>
         </div>

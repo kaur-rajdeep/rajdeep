@@ -11,7 +11,7 @@ const About = () => {
       </div>
 
       <div className="grid place-items-center mt-[5%] lg:mt-[-32%] lg:opacity-80">
-        <p className="font-bold text-center text-5xl lg:text-8xl lg:text-left w-[90%] md:w-[70%]">
+        <p className="font-bold text-center text-5xl lg:text-8xl lg:text-left w-[90%] md:w-[70%] bg-gradient-to-r from-pink-400 via-pink-200 to-pink-500  inline-block text-transparent bg-clip-text ">
           About Myself
         </p>
         <p className="mt-10 text-l md:text-xl font-medium lg:text-2xl text-justify w-[90%] md:w-[80%] lg:w-[70%]">
