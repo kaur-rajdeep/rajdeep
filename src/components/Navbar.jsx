@@ -27,7 +27,7 @@ export default function Navbar() {
     },
     {
       // path: "M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3",
-      name: "Projects",
+      name: "Code",
       link: "/projects",
     },
     // {
@@ -54,7 +54,7 @@ export default function Navbar() {
               <ion-icon name={open ? "close" : "menu"}></ion-icon>
             </div>
             <ul
-              className={`md:mt-2 md:flex md:items.center md:pb-0 absolute md:static md:z-auto z-[-1]  left-0 w-full md:w-auto md-pl-0 pl-9 transition-all duration-500 ease-in bg-black md:backdrop-blur-md md:bg-transparent border-2 rounded-md border-pink-500 md:border-0 grid place-items-center ${
+              className={` md:mt-2 md:flex md:items.center md:pb-0 absolute md:static md:z-auto z-[-1]  left-0 w-full md:w-auto md-pl-0 pl-9 transition-all duration-500 ease-in bg-black md:backdrop-blur-md md:bg-transparent border-2 rounded-md border-pink-500 md:border-0 grid place-items-center ${
                 open ? "top-20 opacity-100" : "top-[-490px]"
               } md:opacity-100 opacity-0`}
             >
