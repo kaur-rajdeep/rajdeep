@@ -3,7 +3,7 @@ import pink from "./../assets/pink sketch.png";
 const Home = () => {
   return (
     <div className="text-white mt-[22%] md:mt-[10%] lg:-mt-[5%] grid place-items-center bg-black lg:grid lg:grid-flow-col">
-      <div className="lg:ml-[10%] w-[75%] lg:-mt-12 mt-[20%]  text-center lg:text-left">
+      <div className="lg:ml-[10%] w-[75%] lg:-mt-12 mt-[10%]  text-center lg:text-left">
         <p className="text-2xl text-white font-medium mb-4 text-center lg:text-left">
           Hey! This is
         </p>
