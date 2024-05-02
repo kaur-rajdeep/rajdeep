@@ -11,8 +11,10 @@ const Home = () => {
           Rajdeep Kaur
         </p>
         <p className="mt-10 text-l md:text-xl font-medium lg:text-2xl text-center lg:text-justify opacity-70">
-          Front-End Developer, Open Source Contributor, full-time CSE Student
-          and part-time Artist
+          Intern, Front-End Developer, Open Source Contributor, CSE Student and{" "}
+          <span className="bg-gradient-to-r from-[#ec4899] via-pink-200 to-[#ff168a]  inline-block text-transparent bg-clip-text">
+            Artist
+          </span>
         </p>
         <div className="inline-flex">
           <a
