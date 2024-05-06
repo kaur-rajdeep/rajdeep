@@ -10,7 +10,7 @@ var projects = [
     name: "Eternal University Dummy Website",
     image: group,
     description:
-      "Group Project made using Reactjs, tailwind css used github to mantain the repository.",
+      "Group Project made using Reactjs, tailwind css, used github to mantain the repository.",
     live: "https://eu-website-tau.vercel.app/",
   },
   {
