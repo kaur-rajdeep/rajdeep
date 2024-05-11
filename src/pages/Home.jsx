@@ -7,10 +7,10 @@ const Home = () => {
         <p className="text-2xl text-white font-medium mb-4 text-center lg:text-left">
           Hey! This is
         </p>
-        <p className="font-bold text-center text-4xl md:text-5xl lg:text-8xl lg:text-left bg-gradient-to-r from-pink-400 via-pink-200 to-pink-500  inline-block text-transparent bg-clip-text ">
+        <p className="font-bold text-center text-4xl md:text-5xl lg:text-7xl lg:text-left bg-gradient-to-r from-pink-400 via-pink-200 to-pink-500  inline-block text-transparent bg-clip-text ">
           Rajdeep Kaur
         </p>
-        <p className="mt-10 text-l md:text-xl font-medium lg:text-2xl text-center lg:text-justify opacity-70">
+        <p className="mt-10 text-l md:text-xl font-medium lg:text-xl text-center lg:text-justify opacity-70">
           Intern, Front-End Developer, Open Source Contributor, CSE Student and{" "}
           <span className="bg-gradient-to-r from-[#ec4899] via-pink-200 to-[#ff168a]  inline-block text-transparent bg-clip-text">
             Artist
