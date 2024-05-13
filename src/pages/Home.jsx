@@ -71,7 +71,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="flex justify-center lg:justify-end lg:ml-[-400px]">
+      <div className="flex justify-center lg:justify-end lg:ml-[-300px]">
         <img src={pink} className="w-[70%]" alt="pink" />
       </div>
     </div>
