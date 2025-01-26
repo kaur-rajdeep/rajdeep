@@ -3,7 +3,7 @@ import React from "react";
 const Art = () => {
   return (
     <>
-      <div className="grid place-items-center mt-[15%] lg:opacity-80 mb-[5%] lg:mt-[6%]">
+      <div className="grid place-items-center mt-[15%] mb-[5%] lg:mt-[6%]">
         <a
           data-pin-do="embedBoard"
           data-pin-board-width="900px"

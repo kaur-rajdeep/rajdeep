@@ -12,7 +12,7 @@ export default function SkillCard(props) {
       </div>
 
       <div className="mt-3 text-center">
-        <p className="text-pink-400 text-sm">{props.name}</p>
+        <p className="text-[#e0c9d2] text-sm">{props.name}</p>
       </div>
     </div>
   );

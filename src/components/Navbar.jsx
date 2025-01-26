@@ -23,8 +23,8 @@ export default function Navbar() {
       link: "/skills",
     },
     {
-      name: "Projects",
-      link: "/projects",
+      name: "Experience",
+      link: "/experience",
     },
     // {
     //   name: "Connect",
@@ -39,7 +39,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="grid place-items-center">
-        <div className="shadow-md shadow-[#131313]  h-16 fixed top-0 left-0 bg-[#0a0a0a] z-10  w-[100%]">
+        <div className=" h-16 fixed top-0 left-0 bg-black z-10  w-[100%]">
           <div className="md:flex items-center justify-end py-4 md:px-10 px-7">
             <div
               onClick={() => setOpen(!open)}
@@ -48,7 +48,7 @@ export default function Navbar() {
               <ion-icon name={open ? "close" : "menu"}></ion-icon>
             </div>
             <ul
-              className={`md:mt-2 md:flex md:items.center md:pb-0 absolute md:static md:z-auto z-[-1] right-6 w-[200px] md:w-auto md-pl-0 pl-9 transition-all duration-500 ease-in backdrop-blur-md bg-black/30 md:bg-transparent border-2 rounded-md border-pink-500 md:border-0 grid place-items-right ${
+              className={`md:mt-2 md:flex md:items.center md:pb-0 absolute md:static md:z-auto z-[-1] right-6 w-[200px] md:w-auto md-pl-0 pl-9 transition-all duration-500 ease-in backdrop-blur-md bg-black/30 md:bg-transparent border-2 rounded-md border-[#f3055c] md:border-0 grid place-items-right ${
                 open ? "top-20 opacity-100" : "top-[-490px]"
               } md:opacity-100 opacity-0`}
             >

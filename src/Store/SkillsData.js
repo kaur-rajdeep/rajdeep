@@ -11,6 +11,9 @@ import wp from "./../assets/icons/wp.png";
 import git from "./../assets/icons/git.png";
 import figma from "./../assets/icons/figma.png";
 import ps from "./../assets/icons/ps.png";
+import mongo from "./../assets/icons/mongo.png";
+import nestjs from "./../assets/icons/nestjs.png";
+import node from "./../assets/icons/node.png";
 
 var skills = [
   {
@@ -35,43 +38,63 @@ var skills = [
   },
   {
     id: "5",
+    name: "Node js",
+    image: node,
+  },
+  {
+    id: "6",
+    name: "MongoDb",
+    image: mongo,
+  },
+  {
+    id: "7",
+    name: "Nest js",
+    image: nestjs,
+  },
+  {
+    id: "8",
     name: "Bootstrap",
     image: bs,
   },
   {
-    id: "6",
+    id: "9",
     name: "Python",
     image: py,
   },
   {
-    id: "7",
+    id: "10",
     name: "Tailwind css",
     image: twind,
   },
   {
-    id: "8",
+    id: "11",
     name: "PHP",
     image: php,
   },
   {
-    id: "9",
+    id: "12",
     name: "CodeIgniter",
     image: ci,
   },
   {
-    id: "10",
+    id: "13",
     name: "WordPress",
     image: wp,
   },
   {
-    id: "11",
+    id: "14",
     name: "GitHub",
     image: git,
   },
   {
-    id: "12",
+    id: "15",
     name: "Adobe Photoshop",
     image: ps,
+  },
+  {
+    id: "16",
+    name: "Figma",
+    image: figma,
   },
 ];
 

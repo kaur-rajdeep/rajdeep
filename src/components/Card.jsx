@@ -11,7 +11,7 @@ export default function Card(props) {
         />
       </a>
       <div className="mt-6">
-        <p className="font-bold text-lg text-pink-400">{props.name}</p>
+        <p className="font-bold text-lg text-[#ff5798]">{props.name}</p>
         <p className="text-sm text-gray-400 mt-4">{props.description}</p>
       </div>
     </div>
