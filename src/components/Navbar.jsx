@@ -48,7 +48,7 @@ export default function Navbar() {
               <ion-icon name={open ? "close" : "menu"}></ion-icon>
             </div>
             <ul
-              className={`md:mt-2 md:flex md:items.center md:pb-0 absolute md:static md:z-auto z-[-1] right-6 w-[200px] md:w-auto md-pl-0 pl-9 transition-all duration-500 ease-in backdrop-blur-md bg-black/30 md:bg-transparent border-2 rounded-md border-[#f3055c] md:border-0 grid place-items-right ${
+              className={`md:mt-2 md:flex md:items.center md:pb-0 absolute md:static md:z-auto z-[-1] right-6 w-[200px] md:w-auto md-pl-0 pl-9 transition-all duration-500 ease-in backdrop-blur-md bg-black/30 md:bg-transparent border-2 rounded-md border-[#fb327c] md:border-0 grid place-items-right ${
                 open ? "top-20 opacity-100" : "top-[-490px]"
               } md:opacity-100 opacity-0`}
             >
